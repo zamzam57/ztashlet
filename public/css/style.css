@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+}
+
+.menu{
+    background-color: rgb(9, 2, 29);
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu .header{
+    margin: 20px;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu h2{
+    width: 100%;
+    align-content: center;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.menu a{
+    align-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 55px;
+}
+.menu a.active {
+    background-color: rgb(203, 193, 231);
+    color:  rgb(0, 0, 0);
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+.menu a:hover{
+    background-color: rgb(20, 10, 48);
+    color: white;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+.content{
+    background-color: rgb(203, 193, 231);
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    color: beige;
+}
+.cardbg{
+    width: 95%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.cardbg h1{
+    color: white;
+    margin-left: 30px;
+}
+.box1{
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 30px;
+}
+.cardbg .card1{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cardbg .card2{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cardbg .card3{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(211, 14, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cardbg .title{
+    color: black;
+}
+.cardbg .num{
+    color: black;
+    font-size: 50px;
+}
+.cardbg .numinfo{
+    color: black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+
+}
+th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.page-link svg {
+    width: 1em;
+    height: 1em;
+}
